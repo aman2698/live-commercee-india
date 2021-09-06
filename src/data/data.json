@@ -1,0 +1,157 @@
+{
+  "Header": {
+    "title": "We are a Landing Page",
+    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+  },
+  "About": {
+    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "Why": [
+      "Lorem ipsum dolor",
+      "Tempor incididunt",
+      "Lorem ipsum dolor",
+      "Incididunt ut labore"
+    ],
+    "Why2": [
+      "Aliquip ex ea commodo",
+      "Lorem ipsum dolor",
+      "Exercitation ullamco",
+      "Lorem ipsum dolor"
+    ]
+  },
+  "Services": [
+    {
+      "icon": "fa fa-wordpress",
+      "name": "Lorem ipsum dolor",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+    },
+    {
+      "icon": "fa fa-cart-arrow-down",
+      "name": "Consectetur adipiscing",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+    },
+    {
+      "icon": "fa fa-cloud-download",
+      "name": "Lorem ipsum dolor",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+    },
+    {
+      "icon": "fa fa-language",
+      "name": "Consectetur adipiscing",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+    },
+    {
+      "icon": "fa fa-plane",
+      "name": "Lorem ipsum dolor",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+    },
+    {
+      "icon": "fa fa-pie-chart",
+      "name": "Consectetur adipiscing",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+    },   {
+      "icon": "fa fa-language",
+      "name": "Consectetur adipiscing",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+    },
+    {
+      "icon": "fa fa-plane",
+      "name": "Lorem ipsum dolor",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+    },
+    {
+      "icon": "fa fa-pie-chart",
+      "name": "Consectetur adipiscing",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+    }
+  ],
+  "Testimonials": [
+    {
+      "img": "img/testimonials/01.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "John Doe"
+    },
+    {
+      "img": "img/testimonials/02.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "Johnathan Doe"
+    },
+    {
+      "img": "img/testimonials/03.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "John Doe"
+    }
+ 
+  ],
+  "Team": [
+    {
+      "img": "img/team/01.jpg",
+      "name": "John Doe",
+      "job": "Director"
+    },
+    {
+      "img": "img/team/02.jpg",
+      "name": "Mike Doe",
+      "job": "Senior Designer"
+    },
+    {
+      "img": "img/team/03.jpg",
+      "name": "Jane Doe",
+      "job": "Senior Designer"
+    },
+    {
+      "img": "img/team/04.jpg",
+      "name": "Karen Doe",
+      "job": "Project Manager"
+    }
+  ],
+  "Contact": {
+    "address": "4321 California St, San Francisco, CA 12345 ",
+    "phone": "+1 123 456 1234",
+    "email": "info@company.com",
+    "facebook": "fb.com",
+    "twitter": "twitter.com",
+    "youtube": "youtube.com"
+  },
+  "Features": [
+    {
+      "icon": "/img/feature/magento.svg",
+      "title": "Magento",
+      "text": "Magento has best-in-class features for both B2B and B2C merchants. Besides, Magento B2C offers additional capabilities for business-to-business sellers. With a fully personalized experience and hassle-free purchasing, Magento drives your online sales in many ways"
+    },
+    {
+      "icon": "/img/feature/shopify.svg",
+      "title": "Shopify",
+      "text": "Shopify powers your online operations by automating processes and enabling customer-friendly features. You can seamlessly manage both B2B and B2C commerce from one platform. Be it sales, operations, or customer support, Shopify automates everything.  "
+    },
+    {
+      "icon": "/img/feature/woo.svg",
+      "title": "WooCommerce",
+      "text": "WooCommerce is an eCommerce plugin for WordPress websites. It integrates top eCommerce extensions and best-in-class online commerce capabilities. WooCommerce continuously adds new features and extensions that enhance both B2B and B2C eCommerce performance."
+    },
+    {
+      "icon": "/img/feature/bigcommerce.svg",
+      "title": "BigCommerce",
+      "text": "BigCommerce is a design- and feature-rich platform for B2B and B2C buyers. The eCommerce framework lets you create a site with large catalogs. BigCommerce utilizes automated capabilities for an array of functionalities like pricing, customer segmentation, order management, etc."
+    },
+    {
+      "icon": "/img/feature/csCart.svg",
+      "title": "CS-Cart ",
+      "text": "CS-Cart is one of the most trusted multi-vendor eCommerce platforms. It offers hundreds of features, including fully customizable source code, drag-and-drop templates, and many more. With CS-Cart, you don’t have to spend money on purchasing add-ons and developing missing features."
+    },
+    {
+      "icon": "/img/feature/Drupal.svg",
+      "title": "Drupal Commerce ",
+      "text": "Drupal is more widely known as a CMS platform. Its eCommerce version, Drupal Commerce, is used to build eCommerce websites and applications alike. It offers immense development flexibility to create a design-rich eCommerce website for your business."
+    },
+    {
+      "icon": "/img/feature/presta.svg",
+      "title": "PrestaShop",
+      "text": "PrestaShop lets you build your eCommerce store for free. A suitable online store development platform for small to mid-sized merchants. PrestaShop’s design focuses on B2C eCommerce. PrestaShop is available worldwide and has dozens of payment modules."
+    },
+    {
+      "icon": "/img/feature/opencart.svg",
+      "title": "OpenCart ",
+      "text": "OpenCart is one of the best open-source eCommerce development platforms. It enables you to start your online business quickly. OpenCart provides a flexible framework for creating unique designs and features. And you can choose from a range of themes and extensions."
+    }
+  ]
+}
