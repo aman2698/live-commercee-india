@@ -8,7 +8,7 @@ const Navbar = props => {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
   useEffect(() => {
     let  ClickListener = document.addEventListener("click", e => {
-      var navbar = document.getElementById("navbar");
+      var navbar = document.getElementById("");
       if(e.target == navbar){
         setMenuOpen(false)
       }
@@ -69,8 +69,9 @@ const Navbar = props => {
           
           <div className=" lg:mx-auto  ">
             <a
+            id="fea"
               href="#feature"
-              className="block mt-4 lg:inline-block text-xl mr-4 py-2 uppercase hover:scale-110"
+              className="block mt-4 lg:inline-block text-xl mr-4 py-2 uppercase hover:scale-110 under"
             >
                 
                  <span className="mr-1">Feature</span>   
@@ -78,12 +79,14 @@ const Navbar = props => {
             </a>
 
             <a
+            id="about"
               href="#about"
               className="block mt-4 lg:inline-block text-xl mr-4 py-2 leading-none uppercase  text-white-600 hover:scale-110 mt-4 lg:mt-0 	"
             >
               About
             </a>
             <a
+            id="service"
               href="#service"
               className="block mt-4 lg:inline-block text-xl mr-4 py-2 leading-none uppercase  text-white-600 hover:scale-110 mt-4 lg:mt-0 	"
             >

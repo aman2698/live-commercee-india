@@ -19,6 +19,7 @@ a {
   color: white;
   text-decoration: inherit;
   font-size: larger;
+  font-family: "Lato", sans-serif;
   --tw-translate-x: 0;
 --tw-translate-y: 0;
 --tw-rotate: 0;
@@ -75,4 +76,25 @@ a:hover{
     margin-left: -30px;
     left: 50%;
     /* margin-top: 80px ; */
+}
+
+.under::after{
+  /* content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 3px;
+  height: 4px;
+  width: 80px;
+  transition: width .25s ease-in,bottom .25s cubic-bezier(.33,.04,.63,.93),opacity .25s ease-in,bottom .25s cubic-bezier(.33,.04,.63,.93);
+  background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%); */
+  /* display: block !important;
+  position: absolute !important;
+  left: 0 !important;
+  bottom: -1px !important;
+  width: 100% !important;
+  height: 2px !important;
+  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%) !important;
+  content: "" !important;
+  transition: width 0.2s !important; */
 }

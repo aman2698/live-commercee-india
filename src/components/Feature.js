@@ -16,8 +16,8 @@ const Feature = ({data}) => {
                  <div className=" grid  ">
    <div className="col-span-1 text-center"> <i className=""><img src={d.icon} className="circletag fill-current text-green-600"  alt="" /></i></div>
    <div className="col-span-1">
-  <h1 className="text-2xl font-semibold text-black text-center mt-1  ">{d.title}</h1>
-  <h4 className="text-sm text-justify mt-5 ">{d.text}</h4>
+  <h1 className="text-2xl font-semibold text-black text-center mt-1  " style={{fontFamily: "'Raleway', sans-serif"}} >{d.title}</h1>
+  <h4 className="text-sm text-justify mt-5 font-sans ">{d.text}</h4>
   </div>
   </div>
             ))} 
