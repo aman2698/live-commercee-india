@@ -78,7 +78,7 @@ a:hover{
     /* margin-top: 80px ; */
 }
 
-.under::after{
+/* .under::after{ */
   /* content: "";
   position: absolute;
   left: 0;
@@ -97,4 +97,4 @@ a:hover{
   background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%) !important;
   content: "" !important;
   transition: width 0.2s !important; */
-}
+/* } */
