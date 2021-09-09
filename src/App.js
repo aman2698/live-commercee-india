@@ -5,6 +5,7 @@ import Header from './components/Header';
 import JsonData from "./data/data.json";
 import SmoothScroll from "smooth-scroll";
 import Services from './components/Services';
+import ContactUs from './components/ContactUs';
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 1000,
@@ -17,11 +18,11 @@ function App() {
     setLandingPageData(JsonData);
   }, []);
   return (
-    <div className="">
+    <div >
      <Header/>
      <Services data={landingPageData.Services}  />
      <MemorizedFeature data={landingPageData.Features}/>
-    
+    <ContactUs data={landingPageData.Contact}/>
     </div>
   );
 }

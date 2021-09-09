@@ -25,11 +25,11 @@ const Services = ({ data }) => {
         <div class="grid grid-flow-row  grid-rows-9 gap-12 mx-auto  mt-10 md:grid-cols-3 md:grid-rows-3 mx-auto">
           {data &&
             data.map((e) => (
-              <div class=" px-4 bg-whit w-72 bg-white rounded-xl shadow-lg hover:shadow-xl transform hover:scale-110 transition duration-500 mx-auto md:mx-0">
-                <div class="w-sm">
+              <div class=" px-4 bg-whit w-72 bg-white rounded-xl shadow-lg hover:shadow-xl  mx-auto md:mx-0">
+                <div class="w-sm text-center">
                   <img
-                    class="w-64"
-                    src="https://images01.nicepage.com/c461c07a441a5d220e8feb1a/a17abde8d83650a582a28432/users-with-speech-bubbles-vector_53876-82250.jpg"
+                    class="w-64 circletag"
+                    src="/img/feature/shopify.svg"
                     alt=""
                   />
                   <div class="mt-4 text-green-600 text-center">
@@ -41,6 +41,9 @@ const Services = ({ data }) => {
             ))}
         </div>
       </div>
+      <br/>
+      <br/>
+      <br/>
     </div>
   );
 };
