@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Navbar = props => {
   const [isMenuOpen, setMenuOpen] = useState(false);
 //   let listener = null
-  const [scrollState, setScrollState] = useState("")
+  const [scrollState, setScrollState] = useState(null)
   const [navbarOpen, setNavbarOpen] = React.useState(false);
   useEffect(() => {
     let  ClickListener = document.addEventListener("click", e => {
@@ -27,8 +27,8 @@ const Navbar = props => {
           setScrollState("bg-primary shadow")
         }
       } else {
-        if (scrollState !== "") {
-          setScrollState("")
+        if (scrollState !== null) {
+          setScrollState(null)
         }
       }
     })
@@ -39,9 +39,9 @@ const Navbar = props => {
     return (
         <div id="navbar">
                <div>
-      <nav className={`fixed flex items-center justify-between flex-wrap p-2 font-sans  z-50 w-full px-2 py-4 ${scrollState} ` } >
-        <div className="flex items-center text-xl md:text-2xl flex-shrink-0 text-white mr-6 sm:mx-10 text-white-900">
-          <a href="#header">
+      <nav className={`fixed flex items-center justify-between flex-wrap p-1 font-sans  z-50 w-full  ${scrollState} ` } >
+        <div className="flex items-center text-xl md:text-2xl flex-shrink-0 text-white mr-6 sm:mx-10 ">
+          <a href="#header" style={{color:"white"}}>
             Live Commerce India
           </a>
         </div>
@@ -72,6 +72,7 @@ const Navbar = props => {
             id="fea"
               href="#feature"
               className="block mt-4 lg:inline-block text-xl mr-4 py-2 uppercase hover:scale-110 under"
+              style={{color:"white"}}
             >
                 
                  <span className="mr-1">Feature</span>   
@@ -79,40 +80,46 @@ const Navbar = props => {
             </a>
 
             <a
-            id="about"
+            id="abo"
               href="#about"
               className="block mt-4 lg:inline-block text-xl mr-4 py-2 leading-none uppercase  text-white-600 hover:scale-110 mt-4 lg:mt-0 	"
+              style={{color:"white"}}
             >
               About
             </a>
             <a
-            id="service"
+            id="ser"
               href="#service"
               className="block mt-4 lg:inline-block text-xl mr-4 py-2 leading-none uppercase  text-white-600 hover:scale-110 mt-4 lg:mt-0 	"
+              style={{color:"white"}}
             >
               Service
             </a>
             <a
               href="#service"
               className="block mt-4 lg:inline-block text-xl mr-4 py-2 leading-none uppercase  text-white-600 hover:scale-110 mt-4 lg:mt-0 	"
+              style={{color:"white"}}
             >
               Gallary
             </a>
             <a
               href="#service"
               className="block mt-4 lg:inline-block text-xl mr-4 py-2 leading-none uppercase  text-white-600 hover:scale-110 mt-4 lg:mt-0 	"
+              style={{color:"white"}}
             >
               Testimonals
             </a>
             <a
               href="#service"
               className="block mt-4 lg:inline-block text-xl mr-4 py-2 leading-none uppercase  text-white-600 hover:scale-110 mt-4 lg:mt-0 	"
+              style={{color:"white"}}
             >
               Team
             </a>
             <a
               href="#service"
               className="block mt-4 lg:inline-block text-xl mr-4 py-2 leading-none uppercase  text-white-600 hover:scale-110 mt-4 lg:mt-0 	"
+              style={{color:"white"}}
             >
               Contact Us
             </a>

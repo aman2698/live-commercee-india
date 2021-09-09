@@ -1,9 +1,10 @@
 import {useState,useEffect} from 'react'
 import './App.css';
-import Feature from './components/Feature';
+import {MemorizedFeature} from './components/Feature';
 import Header from './components/Header';
 import JsonData from "./data/data.json";
 import SmoothScroll from "smooth-scroll";
+import Services from './components/Services';
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 1000,
@@ -18,7 +19,9 @@ function App() {
   return (
     <div className="">
      <Header/>
-     <Feature data={landingPageData.Features}/>
+     <Services data={landingPageData.Services}  />
+     <MemorizedFeature data={landingPageData.Features}/>
+    
     </div>
   );
 }

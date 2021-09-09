@@ -5,6 +5,9 @@ module.exports = {
     colors:{
       transparent: 'transparent',
       primary:  '#2f435b',
+      subtitle:"#2f435b",
+      secondary:"#f6f6f6"
+      
     },
     extend: {},
   },
