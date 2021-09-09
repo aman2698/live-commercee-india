@@ -21,47 +21,47 @@
   "Services": [
     {
       "icon": "fa fa-wordpress",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "eCommerce Website Development",
+      "text": "Fully customized, UX-driven, and tech-rich online websites that entice customers and boost your online business revenue."
     },
     {
       "icon": "fa fa-cart-arrow-down",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "Custom eCommerce Website Design ",
+      "text": "Unique and captivating web design that helps your brand establish an impactful and profitable presence in the eCommerce space."
     },
     {
       "icon": "fa fa-cloud-download",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "Online Marketplace Development ",
+      "text": "Feature-rich, seamless, and secure online marketplace enabling sellers of all kinds to list and sell their products"
     },
     {
       "icon": "fa fa-language",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "Headless eCommerce Solutions",
+      "text": "Dynamic, user-focused, and evolved eCommerce solutions to keep you at the frontier of the rapidly changing digital commerce wave. "
     },
     {
       "icon": "fa fa-plane",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "B2B eCommerce Solutions",
+      "text": "Online commerce solutions that fulfill all your business-to-business selling requirements while ensuring flawless security."
     },
     {
       "icon": "fa fa-pie-chart",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "eCommerce Platform Upgrade ",
+      "text": "Services and solutions to upgrade or migrate your existing online store built on Magento, Shopify, WooCommerce, Drupal, etc."
     },   {
       "icon": "fa fa-language",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "eCommerce Mobile Apps",
+      "text": "Personalized to meet a business’s unique needs, our apps help you tap the potential of expansive smartphone owners’ space."
     },
     {
       "icon": "fa fa-plane",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "Payment Gateway Integration",
+      "text": "A full range of payment solutions to make our site’s check-out process intuitive and secure for every single transaction."
     },
     {
       "icon": "fa fa-pie-chart",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "Maintenance & Tech Support",
+      "text": "Our tech support promptly resolves all your queries and efficiently addresses all the maintenance requirements."
     }
   ],
   "Testimonials": [

@@ -1,41 +1,52 @@
 .intro {
   display: table;
   width: 100%;
-  height:900px;
+  /* height:900px; */
   padding: 0;
- background: url(./image/intro-bg.png) center center no-repeat;
+  background: url(./image/intro-bg.png) center center no-repeat;
   background-color: #e5e5e5;
   -webkit-background-size: cover;
   -moz-background-size: cover;
-  background-size: cover;
+  /* background-size: cover; */
   -o-background-size: cover;
+
+  min-height: 600px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  /* background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; */
 }
 
-.shadow{
+.shadow {
   box-shadow: 0 5px 15px rgb(0 0 0 / 25%);
 }
 
 a {
-  color: white;
-  text-decoration: inherit;
+  /* color: white; */
+  /* text-decoration: inherit; */
   font-size: larger;
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   --tw-translate-x: 0;
---tw-translate-y: 0;
---tw-rotate: 0;
---tw-skew-x: 0;
---tw-skew-y: 0;
---tw-scale-x: 1;
---tw-scale-y: 1;
-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-transition-duration: 500ms;
-transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-transition-duration: 150ms;
-transform: translateX(var(--tw-translate-x)) translateY(var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 500ms;
+  transition-property: background-color, border-color, color, fill, stroke,
+    opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+  transform: translateX(var(--tw-translate-x)) translateY(var(--tw-translate-y))
+    rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y))
+    scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
-a:hover{
+a:hover {
   /* font-weight: 800; */
   --tw-translate-x: 0.25rem;
 }
@@ -58,28 +69,28 @@ a:hover{
   box-shadow: 10px 10px 10px rgb(0 0 0 / 5%);
 
   display: inline-block;
-    font: normal normal normal 14px/1 FontAwesome;
-    font-size: inherit;
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    transform: translate(0, 0);
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transform: translate(0, 0);
 }
 
-.section-title{
+.section-title {
   /* position: absolute; */
-    content: "";
-    background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
-    height: 4px;
-    width: 60px;
-    bottom: 0;
-    margin-left: -30px;
-    left: 50%;
-    /* margin-top: 80px ; */
+  content: '';
+  background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+  height: 4px;
+  width: 60px;
+  bottom: 0;
+  margin-left: -30px;
+  left: 50%;
+  /* margin-top: 80px ; */
 }
 
 /* .under::after{ */
-  /* content: "";
+/* content: "";
   position: absolute;
   left: 0;
   right: 0;
@@ -88,7 +99,7 @@ a:hover{
   width: 80px;
   transition: width .25s ease-in,bottom .25s cubic-bezier(.33,.04,.63,.93),opacity .25s ease-in,bottom .25s cubic-bezier(.33,.04,.63,.93);
   background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%); */
-  /* display: block !important;
+/* display: block !important;
   position: absolute !important;
   left: 0 !important;
   bottom: -1px !important;
@@ -98,3 +109,44 @@ a:hover{
   content: "" !important;
   transition: width 0.2s !important; */
 /* } */
+
+.header-title {
+  word-break: break-word;
+  margin-top: -40px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 2.2rem;
+  font-family: Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 0;
+  line-height: normal;
+}
+
+.header-subtitle {
+  color: #fff;
+  font-weight: 300;
+  font-size: 1.5rem;
+  font-family: Helvetica, Arial, sans-serif;
+  margin-top: 30px;
+  word-break: break-word;
+}
+
+@media (min-width: 768px) {
+  .header-title {
+    margin-top: -70px;
+    padding-top: 260px;
+    font-size: 3.6rem;
+  }
+  .header-subtitle {
+    font-size: 1.4rem;
+  }
+}
+
+.back {
+  background-color: rgba(17, 17, 14, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 600px;
+}
