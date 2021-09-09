@@ -26,11 +26,12 @@ const Services = ({ data }) => {
           {data &&
             data.map((e) => (
               <div class=" px-4 bg-whit w-72 bg-white rounded-xl shadow-lg hover:shadow-xl  mx-auto md:mx-0">
-                <div class="w-sm text-center">
+                <div class="w-sm   ">
                   <img
-                    class="w-64 circletag"
-                    src="/img/feature/shopify.svg"
+                    class="w-32 h-32 "
+                    src={e.icon}
                     alt=""
+                    style={{marginLeft:"66px"}}
                   />
                   <div class="mt-4 text-green-600 text-center">
                     <h1 class="text-xl font-bold">{e.name}</h1>
