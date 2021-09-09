@@ -5,7 +5,7 @@ const About = ({ data }) => {
     <div id='about'>
       <div
         className='container mx-auto px-3 mt-5'
-        style={{ backgroundColor: '#f4f5f7' }}
+        style={{ backgroundColor: '#fff' }}
       >
         <h1 className='text-center text-5xl font-bold'>About Us</h1>
         <div className='grid grid-flow-col grid-cols-1 grid-rows-1 justify-items-center  mt-2'>
