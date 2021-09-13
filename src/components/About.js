@@ -16,15 +16,15 @@ const About = ({ data }) => {
               <span className="about-title ml-5"> </span>
             </div>
 
-            <p id="job" className="text-gray-800 mt-2">
+            <p id="job" className="text-gray-800 mt-5">
               {data ? data.paragraph : "loading..."}
             </p>
 
             <br />
-            <h1 className="text-2xl text-primary font-bold">Why Choose Us?</h1>
+            <h1 className="text-2xl mt-5 text-primary font-bold">Why Choose Us?</h1>
 
             <div className="list-style mt-2">
-              <div className="grid-col-6 gap-4">
+              <div className="grid grid-flow-row  grid-rows-3 grid-cols-2 mt-5 gap-1 mx-auto">
                 {data
                   ? data.Why.map((d, i) => (
                       <>
