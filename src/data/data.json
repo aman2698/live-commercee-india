@@ -85,27 +85,33 @@
     }
  
   ],
-  "Team": [
+  "portfolio": [
+ 
     {
-      "img": "img/team/01.jpg",
-      "name": "John Doe",
-      "job": "Director"
+      "img": "img/team/02.jpg",
+      "text": "Magento 2 Website Design and Development for Restaurant Supply Company"
     },
     {
       "img": "img/team/02.jpg",
-      "name": "Mike Doe",
-      "job": "Senior Designer"
+      "text": "Online Store Development for a leading Indian Instant Coffee Brand       "
     },
     {
-      "img": "img/team/03.jpg",
-      "name": "Jane Doe",
-      "job": "Senior Designer"
+      "img": "img/team/02.jpg",
+      "text": "Online Marketplace Development for a Women’s Fashionwear Brand       "
     },
     {
-      "img": "img/team/04.jpg",
-      "name": "Karen Doe",
-      "job": "Project Manager"
+      "img": "img/team/02.jpg",
+      "text": "Digital Giftshop Design, Development, & Maintenance for Retailer       "
+    },
+    {
+      "img": "img/team/02.jpg",
+      "text": "B2B eCommerce Website Development for an FMCG Company       "
+    },
+    {
+      "img": "img/team/02.jpg",
+      "text": "Digital Storefront Design Enhancement for a Clothing Retailer"
     }
+  
   ],
   "Contact": {
     "address": "Unit No. 650, 6th Floor, Tower A, Spaze iTechPark, Sector-49, Sohna Road, Gurgaon. ",
@@ -158,3 +164,10 @@
     }
   ]
 }
+
+
+
+
+
+
+

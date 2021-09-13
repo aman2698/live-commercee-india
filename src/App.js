@@ -24,7 +24,7 @@ function App() {
      <Services data={landingPageData.Services}  />
      <About data={landingPageData.About} />
      <MemorizedFeature data={landingPageData.Features}/>
-     <Portfolio data={landingPageData.Portfolio}/>
+     <Portfolio data={landingPageData.portfolio}/>
     <ContactUs data={landingPageData.Contact}/>
     
      

@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 
 const Services = ({ data }) => {
   return (
-    <div id="service" className="bg-secondary  ">
+    <div id="service" className="bg-secondary">
       <br />
       <br />
       <br />
