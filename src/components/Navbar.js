@@ -116,7 +116,7 @@ const Navbar = (props) => {
                 Team
               </a>
               <a
-                href="#service"
+                href="#contact"
                 className="block mt-4 lg:inline-block text-xl mr-4 py-2 leading-none uppercase  text-white-600 hover:scale-110 mt-4 lg:mt-0 	"
                 style={{ color: "white" }}
               >

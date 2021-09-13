@@ -17,6 +17,12 @@ const Header = (props) => {
               ideating an eCommerce site to designing, developing, & maintaining
               – we stay with you throughout it.{' '}
             </h2>
+            <a
+                  href='#contact'
+                  className='home-cover__btn mt-10'
+                >
+                  Contact Us
+                </a>
           </div>
         </div>
       </div>
