@@ -4,6 +4,7 @@
     "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
   },
   "About": {
+    "image":"/img/about/about.jpg",
     "paragraph": "We are a team of passionate eCommerce experts, software engineers, web designers, Quality Analysts, and other IT professionals. At Live Commerce, we make sure that irrespective of the kind or size of your business, you get the best-in-class solutions.  Over the years, we have helped SMEs and companies launch eCommerce seamlessly while addressing unique requirements.",
     "Why": [
       "Vast experience across domains",
@@ -69,53 +70,50 @@
   ],
   "Testimonials": [
     {
-      "img": "img/testimonials/01.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
+      "text": "\"The Live Commerce team integrated eCommerce with our ERP software. Now our team can more efficiently manage both online transactions and operations processes.\"",
+      "name": "-COO at an eCommerce company "
     },
     {
-      "img": "img/testimonials/02.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
+      "text": "\"We wanted to streamline various processes with our eCommerce operations. The Live Commerce team did everything so efficiently and brilliantly. I highly recommend Live Commerce for eCommerce solutions.\"",
+      "name": "-MD of a pan-India retail company"
     },
     {
-      "img": "img/testimonials/03.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
+      "text": "\"We contacted this company to build a user experience-focused online store. The team pitched us for headless commerce, and we liked their proposal. Our Shopify online store is running flawlessly\"",
+      "name": "-Operations Head at a fashionwear company"
     }
  
   ],
   "portfolio": [
  
     {
-      "img": "img/team/02.jpg",
+      "img": "img/portfolio/01.jpeg",
       "text": "Magento 2 Website Design and Development for Restaurant Supply Company"
     },
     {
-      "img": "img/team/02.jpg",
+      "img": "img/portfolio/02.jpeg",
       "text": "Online Store Development for a leading Indian Instant Coffee Brand       "
     },
     {
-      "img": "img/team/02.jpg",
+      "img": "img/portfolio/03.jpeg",
       "text": "Online Marketplace Development for a Women’s Fashionwear Brand       "
     },
     {
-      "img": "img/team/02.jpg",
+      "img": "img/portfolio/04.jpeg",
       "text": "Digital Giftshop Design, Development, & Maintenance for Retailer       "
     },
     {
-      "img": "img/team/02.jpg",
+      "img": "img/portfolio/05.jpeg",
       "text": "B2B eCommerce Website Development for an FMCG Company       "
     },
     {
-      "img": "img/team/02.jpg",
+      "img": "img/portfolio/06.jpeg",
       "text": "Digital Storefront Design Enhancement for a Clothing Retailer"
     }
   
   ],
   "Contact": {
     "address": "Unit No. 650, 6th Floor, Tower A, Spaze iTechPark, Sector-49, Sohna Road, Gurgaon. ",
-    "phone": "+1 123 456 1234",
+    "phone": "+91 98702 89050 ",
     "email": "info@company.com",
     "facebook": "fb.com",
     "twitter": "twitter.com",
@@ -161,6 +159,20 @@
       "icon": "/img/feature/opencart.svg",
       "title": "OpenCart ",
       "text": "OpenCart is one of the best open-source eCommerce development platforms. It enables you to start your online business quickly. OpenCart provides a flexible framework for creating unique designs and features. And you can choose from a range of themes and extensions."
+    }
+  ],
+  "FAQs":[
+    {
+      "question":"How much does it cost to develop an eCommerce website?",
+      "answer":"The costs of building an eCommerce website vary widely, depending on your needs. If you need a simple online store with basic features and a storefront, costs are comparatively lower. We offer reliable eCommerce development at a competitive price."
+    },
+    {
+      "question":"How much does it cost to develop a B2B eCommerce website?",
+      "answer":"The costs of building a B2B eCommerce website vary widely, depending on your needs. If you need a simple online store with basic features and a storefront, costs are comparatively lower. Live Commerce India offers reliable B2B solutions at a competitive price"
+    },
+    {
+      "question":"What is an omnichannel eCommerce strategy?",
+      "answer":"An omnichannel eCommerce strategy is an approach to sales and marketing that provides customers with a fully integrated shopping experience. It is achieved by combining user experiences from brick-and-mortar to mobile browsing, to social media everything in between"
     }
   ]
 }

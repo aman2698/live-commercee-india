@@ -1,18 +1,19 @@
 import React, { useState, useEffect } from "react";
-import PropTypes from "prop-types";
-import { Link } from "react-router-dom";
 const Navbar = (props) => {
   const [isMenuOpen, setMenuOpen] = useState(false);
-  //   let listener = null
   const [scrollState, setScrollState] = useState(null);
-  const [navbarOpen, setNavbarOpen] = React.useState(false);
   useEffect(() => {
     let ClickListener = document.addEventListener("click", (e) => {
-      var navbar = document.getElementById("");
-      if (e.target == navbar) {
+      let ser = document.getElementById("ser");
+      let fea = document.getElementById("fea");
+      let abo = document.getElementById("abo");
+      let tes = document.getElementById("tes");
+      let por = document.getElementById("por");
+      let con = document.getElementById("con");
+      if (e.target === ser || e.target=== fea || e.target===abo || e.target=== por || e.target===tes || e.target===con) {
         setMenuOpen(false);
       }
-      console.log(e.target, navbar);
+      
     });
     return () => {
       document.removeEventListener("click", ClickListener);
@@ -39,11 +40,12 @@ const Navbar = (props) => {
     <div id="navbar">
       <div>
         <nav
-          className={`fixed flex items-center justify-between flex-wrap p-1 font-sans  z-50 w-full  ${scrollState} `}
+          className={`fixed flex items-center px-4 py-2 justify-between flex-wrap p-1 font-sans  z-50 w-full  bg-primary`}
         >
           <div className="flex items-center text-xl md:text-2xl flex-shrink-0 text-white mr-6 sm:mx-10 ">
-            <a href="#header" style={{ color: "white" }}>
-              Live Commerce India
+            <a href="#header" className="font-sans" style={{ color: "white",fontFamily:"ui-serif, Georgia, Cambria, 'Times New Roman', Times, serif" }}>
+              {/* Live Commerce India */}
+              <img src="/livecommercelogo.jpg" alt="" className="logoImage" />
             </a>
           </div>
           <div className="block lg:hidden text-white-900">
@@ -52,9 +54,10 @@ const Navbar = (props) => {
                 setMenuOpen(!isMenuOpen);
               }}
               className="flex items-center px-3 py-2 border rounded text-white-600 border-white-400  hover:text-white"
+              style={{ color: "white" }}
             >
               <svg
-                className="fill-current h-4 w-4"
+                className="fill-current text-white aaa h-4 w-4"
                 viewBox="0 0 20 20"
                 xmlns="http://www.w3.org/2000/svg"
               >
@@ -66,9 +69,17 @@ const Navbar = (props) => {
           <div
             className={`w-full ${
               isMenuOpen ? "block" : "hidden"
-            } lg:block flex-grow justify-baseline lg:flex lg:items-baseline lg:w-auto  text-white-900`}
+            } lg:block flex-grow justify-baseline justify-between lg:flex lg:items-baseline lg:w-auto  text-white-900`}
           >
-            <div className=" lg:mx-auto  ">
+            <div className=" lg:mx-auto   ">
+            <a
+                id="ser"
+                href="#service"
+                className="block mt-4 lg:inline-block text-xl mr-4 py-2 leading-none uppercase  text-white-600  hover:scale-110 mt-4 lg:mt-0 	"
+                style={{ color: "white" }}
+              >
+                Service
+              </a>
               <a
                 id="fea"
                 href="#feature"
@@ -86,41 +97,31 @@ const Navbar = (props) => {
               >
                 About
               </a>
+          
+             
               <a
-                id="ser"
-                href="#service"
+              id="por"
+                href="#portfolio"
                 className="block mt-4 lg:inline-block text-xl mr-4 py-2 leading-none uppercase  text-white-600 hover:scale-110 mt-4 lg:mt-0 	"
                 style={{ color: "white" }}
               >
-                Service
+                Portfolio
               </a>
               <a
-                href="#service"
+              id="tes"
+                href="#testimonial"
                 className="block mt-4 lg:inline-block text-xl mr-4 py-2 leading-none uppercase  text-white-600 hover:scale-110 mt-4 lg:mt-0 	"
                 style={{ color: "white" }}
               >
-                Gallary
+                Testimonial
               </a>
               <a
-                href="#service"
-                className="block mt-4 lg:inline-block text-xl mr-4 py-2 leading-none uppercase  text-white-600 hover:scale-110 mt-4 lg:mt-0 	"
-                style={{ color: "white" }}
-              >
-                Testimonals
-              </a>
-              <a
-                href="#service"
-                className="block mt-4 lg:inline-block text-xl mr-4 py-2 leading-none uppercase  text-white-600 hover:scale-110 mt-4 lg:mt-0 	"
-                style={{ color: "white" }}
-              >
-                Team
-              </a>
-              <a
+              id="con"
                 href="#contact"
                 className="block mt-4 lg:inline-block text-xl mr-4 py-2 leading-none uppercase  text-white-600 hover:scale-110 mt-4 lg:mt-0 	"
                 style={{ color: "white" }}
               >
-                Contact Us
+                ContactUs
               </a>
             </div>
           </div>
@@ -130,6 +131,6 @@ const Navbar = (props) => {
   );
 };
 
-Navbar.propTypes = {};
+
 
 export default Navbar;

@@ -1,4 +1,4 @@
-import Image from "./../image/about.jpg";
+
 
 const About = ({ data }) => {
   return (
@@ -7,8 +7,9 @@ const About = ({ data }) => {
         <div className="block md:flex items-center p-4 bg-white  rounded-lg shadow-sm dark:bg-gray-800">
           <img
             alt="mountain"
-            className="w-45 block md:flex rounded-md "
-            src={Image}
+            id="aboutImg"
+            className="w-45  block md:flex rounded-md js-show-on-scroll  "
+            src={data&&data.image}
           />
           <div className="block mt-5 md:mt-0 md:flex md:flex-col md:ml-5">
             <h1 className="text-left text-primary text-3xl font-bold">ABOUT US</h1>
@@ -27,8 +28,8 @@ const About = ({ data }) => {
               <div className="grid grid-flow-row  grid-rows-3 grid-cols-2 mt-5 gap-1 mx-auto">
                 {data
                   ? data.Why.map((d, i) => (
-                      <>
-                        <p className="flex text-gray-700">
+                      <div key={i}>
+                        <div className="flex text-gray-700" >
                           <svg
                             className="w-2 text-gray-500 mx-2"
                             viewBox="0 0 8 8"
@@ -37,8 +38,8 @@ const About = ({ data }) => {
                             <circle cx="4" cy="4" r="3" />
                           </svg>
                           {d}
-                        </p>
-                      </>
+                        </div>
+                      </div>
                     ))
                   : "loading"}
               </div>

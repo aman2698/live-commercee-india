@@ -14,14 +14,14 @@ const Feature = ({ data }) => {
           <span className="section-title ml-5"> </span>
         </div>
 
-        <div class="grid grid-flow-col grid-cols-2 grid-rows-4 gap-7 mx-auto  mt-10 md:grid-cols-4 md:grid-rows-2 mx-auto">
+        <div className="grid grid-flow-col grid-cols-2 grid-rows-4 gap-7 mx-auto  mt-10 md:grid-cols-4 md:grid-rows-2 mx-auto">
           {data &&
-            data.map((d) => (
-              <div class="w-sm text-center">
-                <img class="w-64 circletag" src={d.icon} alt="" />
-                <div class="mt-4  text-center">
-                  <h1 class="text-xl text-primary font-bold">{d.title}</h1>
-                  <p class="mt-4 text-gray-900 text-center">{d.text}</p>
+            data.map((d,i) => (
+              <div className="w-sm text-center" key={i}>
+                <img className="w-64 circletag" src={d.icon} alt="" />
+                <div className="mt-4  text-center">
+                  <h1 className="text-xl text-primary font-bold">{d.title}</h1>
+                  <p className="mt-4 text-gray-900 text-justify">{d.text}</p>
                 </div>
               </div>
             ))}
@@ -31,6 +31,8 @@ const Feature = ({ data }) => {
   );
 };
 
-Feature.propTypes = {};
+Feature.propTypes = {
+    data:PropTypes.array,
+};
 
 export const MemorizedFeature = React.memo(Feature);

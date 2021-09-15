@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import PropTypes from "prop-types";
 import ReactFlagsSelect from "react-flags-select";
 
 const initialState = {
@@ -41,55 +40,55 @@ const ContactUs = (props) => {
             </div>
             <h1 className="text-md mt-4">Please fill out the form below to send us an email and we will get back to you as soon as possible.</h1>
             <form className="block">
-              <div class=" grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-8 mt-5 mx-2">
-                <div class="grid grid-cols-1">
-                  <label class="uppercase md:text-sm text-xs text-gray-500 text-light font-semibold">
+              <div className=" grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-8 mt-5 mx-2">
+                <div className="grid grid-cols-1">
+                  <label className="uppercase md:text-sm text-xs text-gray-500 text-light font-semibold">
                     Name
                   </label>
                   <input
-                    class="py-2 px-3 rounded-lg border-2 border-purple-300 mt-1 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent"
+                    className="py-2 px-3 rounded-lg border-2 border-purple-300 mt-1 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent"
                     type="text"
                   />
                 </div>
-                <div class="grid grid-cols-1">
-                  <label class="uppercase md:text-sm text-xs text-gray-500 text-light font-semibold">
+                <div className="grid grid-cols-1">
+                  <label className="uppercase md:text-sm text-xs text-gray-500 text-light font-semibold">
                     Email
                   </label>
                   <input
-                    class="py-2 px-3 rounded-lg border-2 border-purple-300 mt-1 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent"
+                    className="py-2 px-3 rounded-lg border-2 border-purple-300 mt-1 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent"
                     type="text"
                   />
                 </div>
               </div>
 
-              <div class=" grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-8 mt-5 mx-2">
-                <div class="grid grid-cols-1">
-                  <label class="uppercase md:text-sm text-xs text-gray-500 text-light font-semibold">
+              <div className=" grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-8 mt-5 mx-2">
+                <div className="grid grid-cols-1">
+                  <label className="uppercase md:text-sm text-xs text-gray-500 text-light font-semibold">
                     Mobile/phone
                   </label>
                   <input
-                    class="py-2 px-3 rounded-lg border-2 border-purple-300 mt-1 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent"
+                    className="py-2 px-3 rounded-lg border-2 border-purple-300 mt-1 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent"
                     type="number"
                   />
                 </div>
-                <div class="grid grid-cols-1">
-                  <label class="uppercase md:text-sm text-xs text-gray-500 text-light font-semibold">
+                <div className="grid grid-cols-1">
+                  <label className="uppercase md:text-sm text-xs text-gray-500 text-light font-semibold">
                     Organization/Company
                   </label>
                   <input
-                    class="py-2 px-3 rounded-lg border-2 border-purple-300 mt-1 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent"
+                    className="py-2 px-3 rounded-lg border-2 border-purple-300 mt-1 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent"
                     type="text"
                   />
                 </div>
               </div>
 
-              <div class=" grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-8 mt-5 mx-2">
-                <div class="grid grid-cols-1">
-                  <label class="uppercase md:text-sm text-xs text-gray-500 text-light font-semibold">
+              <div className=" grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-8 mt-5 mx-2">
+                <div className="grid grid-cols-1">
+                  <label className="uppercase md:text-sm text-xs text-gray-500 text-light font-semibold">
                     Country
                   </label>
                   <div
-                    class=" px-3 rounded-lg border-2 border-purple-300 mt-1 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent"
+                    className=" px-3 rounded-lg border-2 border-purple-300 mt-1 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent"
                     style={{
                       backgroundColor: "floralwhite",
                       color: "black",
@@ -103,22 +102,22 @@ const ContactUs = (props) => {
                     />
                   </div>
                 </div>
-                <div class="grid grid-cols-1">
-                  <label class="uppercase md:text-sm text-xs text-gray-500 text-light font-semibold">
+                <div className="grid grid-cols-1">
+                  <label className="uppercase md:text-sm text-xs text-gray-500 text-light font-semibold">
                     Document any
                   </label>
                   <input
-                    class="py-2 px-3 rounded-lg border-2 border-purple-300 mt-1 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent"
+                    className="py-2 px-3 rounded-lg border-2 border-purple-300 mt-1 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent"
                     type="file"
                   />
                 </div>
               </div>
-              <div class="grid grid-cols-1 mt-5 mx-2">
-                <label class="uppercase md:text-sm text-xs text-gray-500 text-light font-semibold">
+              <div className="grid grid-cols-1 mt-5 mx-2">
+                <label className="uppercase md:text-sm text-xs text-gray-500 text-light font-semibold">
                   Message
                 </label>
                 <textarea
-                  class="py-2 px-3 rounded-lg border-2 border-purple-300 mt-1 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent"
+                  className="py-2 px-3 rounded-lg border-2 border-purple-300 mt-1 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent"
                   type="text"
                   rows="5"
                 />
@@ -129,38 +128,38 @@ const ContactUs = (props) => {
               </button>
             </form>
           </div>
-          <div className="w-full md:w-1/3 block  mx-10 px-10">
+          <div className=" md:w-1/3 block  mx-10 md:px-10">
             <h1 className="text-3xl mt-5">Contact Info</h1>
             <div className="mt-10">
-            <p>
+            <>
                 <span className="block">
                   <i className="fa fa-map-marker"></i> Address
                 </span>
                 <p className="block mt-3">
                 {props.data ? props.data.address : "loading"}
                 </p>
-              </p>
+              </>
             </div>
 
             <div className="mt-10">
-            <p>
+            <>
                 <span className="block">
                   <i className="fa fa-phone"></i> Phone
                 </span>
                 <p className="block mt-3">
                 {props.data ? props.data.phone : "loading"}
                 </p>
-              </p>
+              </>
             </div>
             <div className="mt-10">
-            <p>
+            <>
                 <span className="block">
                   <i className="fa fa-envelope-o"></i> Email
                 </span>
                 <p className="block mt-3">
                 {props.data ? props.data.email : "loading"}
                 </p>
-              </p>
+              </>
             </div>
           </div>
         </div>
@@ -196,6 +195,5 @@ const ContactUs = (props) => {
   );
 };
 
-ContactUs.propTypes = {};
 
 export default ContactUs;
